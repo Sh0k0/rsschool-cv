@@ -27,7 +27,7 @@ function absentVowel(x){
 - **University:** Tver State Technical University
     * Informatics and computer engineering
 - **Courses:**
-    * [Stepic: HTML и CSS](https://stepik.org/course/38218/promo)
+    * [Stepik: HTML и CSS](https://stepik.org/course/38218/promo)
     * [Javascript](https://learn.javascript.ru/)
 ## Languages
 - Russian - native speaker.
