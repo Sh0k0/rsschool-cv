@@ -110,15 +110,16 @@ body {
 
 .name {
   text-align: left;
-  height: 250px;
+  height: 150px;
 }
 .name_title {
   font-family: "Roboto" sans-serif;
   font-weight: bold;
-  font-size: 42px;
-  padding-top: 60px;
+  font-size: 52px;
+  padding-top: 40px;
   padding-bottom: 30px;
   padding-left: 50px;
+  color: #778899;
 }
 
 .name_subtitle {
@@ -126,4 +127,96 @@ body {
   font-weight: normal;
   font-size: 24px;
   padding-left: 60px;
+}
+.about_me {
+    height: 200px;
+}
+.about_titile{
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: #778899;
+}
+.about_text {
+    font-family: "Roboto" sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.skills {
+    height: 250px;
+}
+.skills_title {
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    color: #778899;
+    width: 50%;
+}
+.skills__list {
+    padding-left: 50px;
+    font-family: "Roboto" sans-serif;
+    font-size: 24px;
+    width: 50%;
+}
+.project_title {
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    color: #778899;
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+.project {
+    text-align: left;
+    float: right;
+    width: 50%;
+}
+.code_example {
+    height: 325x;
+}
+
+.code_title {
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #778899;
+}
+.code {
+    padding-left: 50px;
+    background-color: #cccbcbfd;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 110px;
+    font-family: "Roboto" sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #778899;
+    
+}
+
+.footer_title{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.footer_icon_git{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #778899;
+    text-decoration: none;
 }
