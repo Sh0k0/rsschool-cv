@@ -1,2 +1,31 @@
 @import url("normalize.css");
 @import url("reset.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    background: #FFEBCD;
+    text-align: center;
+    min-width: 940px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 16px;
+   
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.left_side {
+    background-color: #FFEBCD   
+}
