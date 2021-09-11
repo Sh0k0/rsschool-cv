@@ -1,13 +1,44 @@
 @import url("normalize.css");
 @import url("reset.css");
 
+/* roboto-100italic - latin */
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 100;
+    src: local(""),
+      url("../fonts/roboto-v27-latin-100italic.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/roboto-v27-latin-100italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-300 - latin */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: local(""),
+      url("../fonts/roboto-v27-latin-300.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/roboto-v27-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+      url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/roboto-v27-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto" Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
-    background: #FFEBCD;
     text-align: center;
+    background: #FFEBCD;
     min-width: 940px;
     height: 100%;
     margin: 0;
@@ -27,5 +58,11 @@ body {
 }
 
 .left_side {
-    background-color: #FFEBCD   
+    background-color: #778899; 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.right_side {
+    background-color: #DCDCDC;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
