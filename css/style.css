@@ -37,7 +37,6 @@ body {
   font-weight: 400;
   text-align: left;
   background: #ffebcd;
-  min-width: 940px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -47,19 +46,20 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  width: 940px;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
 }
 
 .left_side {
+  max-width: 400px;
   background-color: #778899;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .contact {
-  height: 300px;
+  max-height: 300px;
   padding-left: 50px;
 }
 .contact_title {
@@ -85,7 +85,7 @@ body {
   color: white !important;
 }
 .education {
-  height: 300px;
+  max-height: 300px;
   padding-left: 50px;
 }
 .education_title{
@@ -104,6 +104,7 @@ body {
 }
 
 .right_side {
+  max-width: 540px;
   background-color: #dcdcdc;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -129,7 +130,7 @@ body {
   padding-left: 60px;
 }
 .about_me {
-    height: 200px;
+    max-height: 200px;
 }
 .about_titile{
     font-family: "Roboto" sans-serif;
@@ -183,7 +184,7 @@ body {
     width: 50%;
 }
 .code_example {
-    height: 325x;
+    max-height: 325x;
 }
 
 .code_title {
@@ -202,7 +203,7 @@ body {
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 110px;
+    max-height: 110px;
     font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 22px;
