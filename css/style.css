@@ -36,10 +36,7 @@ body {
   line-height: 30px;
   font-weight: 400;
   text-align: left;
-  background: #ffebcd;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  background: #ffebcd;  
   margin: 16px;
 }
 
@@ -52,14 +49,21 @@ body {
   background-color: white;
 }
 
+@media (max-wight:320px) {
+  .container {
+    max-width: none;
+  }
+}
+
+
 .left_side {
-  max-width: 400px;
+  
   background-color: #778899;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .contact {
-  max-height: 300px;
+  height: 300px;
   padding-left: 50px;
 }
 .contact_title {
@@ -85,7 +89,7 @@ body {
   color: white !important;
 }
 .education {
-  max-height: 300px;
+  height: 300px;
   padding-left: 50px;
 }
 .education_title{
@@ -104,7 +108,7 @@ body {
 }
 
 .right_side {
-  max-width: 540px;
+  
   background-color: #dcdcdc;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -157,6 +161,7 @@ body {
     font-weight: bold;
     font-size: 32px;
     padding-left: 50px;
+    padding-top: 20px;
     padding-bottom: 25px;
     color: #778899;
     width: 50%;
@@ -171,6 +176,7 @@ body {
     font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 32px;
+    padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 25px;
     color: #778899;
@@ -184,7 +190,7 @@ body {
     width: 50%;
 }
 .code_example {
-    max-height: 325x;
+    height: 325x;
 }
 
 .code_title {
@@ -203,7 +209,7 @@ body {
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-height: 110px;
+    height: 110px;
     font-family: "Roboto" sans-serif;
     font-weight: bold;
     font-size: 22px;
