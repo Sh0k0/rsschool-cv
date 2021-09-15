@@ -36,10 +36,10 @@ body {
   font-weight: 400;
   text-align: left;
   background: #ffebcd;
-  margin: 16px;
 }
 
 .container {
+  margin: 16px;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   max-width: 940px;
@@ -238,7 +238,5 @@ body {
 @media (max-wight: 767px) {
   .container {
     max-width: none;
-    padding: 0;
-    margin: 0;
   }
 }
