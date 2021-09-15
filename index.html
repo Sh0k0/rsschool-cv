@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Vladislav Romanov CV</title>
 </head>
@@ -15,14 +18,14 @@
         <!-- left side start-->
 
         <div class="left_side">
-            <figure> <img src="../rsschool-cv/img/photo.jpg" width="400" height="450" alt="Photo" /></figure>
+            <figure> <img src="img/photo.jpg" alt="Photo" class="photo"></figure>
 
             <!-- contact start-->
             <div class="contact">
                 <h2 class="contact_title">Contact</h2>
                 <ul class="contact_list">
                     <li class="contact_item">
-                        Phone:<a href="tel:79856630155" >+79856630155</a>
+                        Phone:<a href="tel:79856630155">+79856630155</a>
                     </li>
                     <li class="contact_item">
                         Email:<a href="mailto:vlad6661866@gmail.com">vlad6661866@gmail.com</a>
@@ -69,8 +72,9 @@
             <section class="skills">
                 <h3 class="project_title">Project</h3>
                 <div class="project">
-                    <p><a href="https://goofy-nightingale-16e031.netlify.app" target="_blank"><img src="img/project.png" width="200"
-                                height="150" alt="Project"></a></p>
+                    <p><a href="https://goofy-nightingale-16e031.netlify.app" target="_blank"><img src="img/project.png"
+                                width="150" height="100" alt="Project"></a></p>
+                    <p class="museum_title">Museum page <br> HTML/CSS</p>
                 </div>
                 <h4 class="skills_title">Skills</h4>
                 <ul class="skills__list">
@@ -87,7 +91,7 @@
             <!-- code example start-->
             <section class="code_example">
                 <h5 class="code_title">Code example</h5>
-                <pre class="code">
+                <pre class="code"><code class="html">
                 function absentVowel(x){
                     let vowels = 'aeiou'
                     for(let i in vowels){
@@ -96,28 +100,28 @@
                         }
                       }
                     }
-                    </pre>
+                </code></pre>
             </section>
             <!-- code example end-->
 
             <!-- footer start-->
-    <footer class="footer">
-            <a href="https://github.com/Sh0k0" class="footer_icon_git" target="_blank">
-                <img src="img/github-logo.svg" width="50" height="50" alt="github" class="footer_icon_github">
-                Github
-            </a>
-            <p class="footer_title">2021</p>
-            <a href="https://rs.school/js/" class="footer_icon_rss" target="_blank">
-                <img src="img/rs_school_js.svg" width="150" height="100" alt="rs_school" class="footer_icon_rs">
-            </a>
-    </footer>
-    <!-- footer end-->
+            <footer class="footer">
+                <a href="https://github.com/Sh0k0" class="footer_icon_git" target="_blank">
+                    <img src="img/github-logo.svg" width="50" height="50" alt="github" class="footer_icon_github">
+                    Github
+                </a>
+                <p class="footer_title">2021</p>
+                <a href="https://rs.school/js/" class="footer_icon_rss" target="_blank">
+                    <img src="img/rs_school_js.svg" width="150" height="100" alt="rs_school" class="footer_icon_rs">
+                </a>
+            </footer>
+            <!-- footer end-->
         </div>
         <!-- right side end-->
     </main>
 
-    
 
+    <script src="script.js"></script>
 </body>
 
 </html>
